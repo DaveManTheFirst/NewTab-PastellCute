@@ -1,0 +1,32 @@
+{
+
+    "manifest_version": 2,
+    "name": "NewTab-Extension",
+    "version": "1.0",
+
+    "description": "Adds cute backgrounds to new Tab",
+
+    
+    "icons": {
+        "48": "icons/icon_96.jpeg"
+    },
+
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "newtab@cute.com"
+      }
+    } ,   
+
+    "permissions": [
+      "webRequest",
+      "tabs"
+    ],
+    
+    "chrome_settings_overrides" : {
+      "homepage": "https://www.youtube.com/"
+     },
+
+    "chrome_url_overrides" : {
+      "newtab": "/html/newtab.html"
+    }
+}
