@@ -5,7 +5,7 @@ A browser extension to make a cute newtab, instead of the default one
 ## Installation
 
 ### Chrome/Chromium base
-- Unzip the Release for Chrome
+- Unzip the source code (not the FIREFOX-Version)
 - Go into Settings
 - Go to "Extensions"
 - Enable Developer Mode
@@ -14,4 +14,5 @@ A browser extension to make a cute newtab, instead of the default one
 - After installing the extension chose "new tab" as homepage
 
 ### Firefox
+- Use the Firefox Version from Release
 - God stand you by
