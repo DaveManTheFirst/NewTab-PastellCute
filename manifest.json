@@ -24,9 +24,5 @@
 
     "chrome_url_overrides" : {
       "newtab": "/html/newtab.html"
-    },
-
-    "chrome_settings_overrides" : {
-      "homepage": "/html/newtab.html"
-     }
+    }
 }
