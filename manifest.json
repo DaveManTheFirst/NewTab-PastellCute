@@ -21,12 +21,12 @@
       "webRequest",
       "tabs"
     ],
-    
-    "chrome_settings_overrides" : {
-      "homepage": "https://www.youtube.com/"
-     },
 
     "chrome_url_overrides" : {
       "newtab": "/html/newtab.html"
-    }
+    },
+
+    "chrome_settings_overrides" : {
+      "homepage": "/html/newtab.html"
+     }
 }
